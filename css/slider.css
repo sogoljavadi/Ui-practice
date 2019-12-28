@@ -106,10 +106,15 @@ width: 100%;
   width: 100%;
 
 }
-
+.right_header h2{
+  color: #ffffff;
+ }
 .left_header{
   width: 100%;
 
+}
+.left_header h2{
+  color: #ffffff;
 }
 .audio1{
   width: 100%;
@@ -136,12 +141,19 @@ width: 100%;
       float: right;
     }
     .left_header{
-      
+      width: 100%;
       float: right;
     }
+    .left_header h2{
+      color: #ffffff;
+    }
     .right_header{
-    
       float: right;
+      width: 100%;
+  }
+    .right_header h2{
+   color: #ffffff;
+  }
     }
     .right_img{
      width: 100%;
@@ -168,14 +180,15 @@ width: 100%;
 }
 .play_icon{
   float: left;
-  color: #ad0000;
+  color:  #ad0000;
   font-size: 20px;
-  margin: 2px 14px;
-}
+  margin: 10px 10px;
+  }
+
 .play_time{
   float: left;
   font-size: 20px;
-  margin: 11px 5px;
+  margin: 7px 7px;
 }
 
 .volume{
@@ -185,21 +198,28 @@ width: 100%;
   color:#ad0000;
 }
 .back_img{
-background-image:();
+background-image:url("back.jpg");
 }
 .p_style{
-  
-  padding: 13px 9px;
+  padding: 0px 0px;
+  display: inline-block;
+}
+.right_icons{
+width: 60%;
+float: right;
+}
+.left_icons{
+  width: 40%;   
+   float: left;
 }
 @media screen and (min-width: 800px) {
 
-  .play_icon{
+  .play_icon {
     float: left;
     color: #ad0000;
     font-size: 20px;
-    margin: 0px 0px;
+    margin: 12px 0px;
   }
-
   .play_time{
     float: left;
     font-size: 20px;
@@ -209,5 +229,12 @@ background-image:();
   
     padding: 0px 0px;
   }
-
+  .right_icons{
+    width: 50%;
+    float: right;
+    }
+    .left_icons{
+      width: 50%;
+      float: right;
+    }
 }
