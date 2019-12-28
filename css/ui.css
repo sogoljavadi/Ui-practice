@@ -84,7 +84,7 @@ a {
     cursor: pointer;
     color: #ffffff;
 }
-.main_ul li:hover a{
+.main_ul li a:hover {
     
     cursor: pointer;
     color: #ffffff;
